@@ -5,7 +5,8 @@ fn main() {
     for x in array1{
         print!("{x} \n");
     }
-    println!("##################");
+
+    println!("---------------------------");
     for y in array0{
         println!("{y}");
     }
