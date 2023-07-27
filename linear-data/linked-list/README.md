@@ -41,3 +41,12 @@ Em uma lista duplamente encadeada, cada nó contém referências aos nós seguin
 Em uma lista encadeada circular, o último nó aponta de volta para o nó principal, criando uma estrutura circular. Pode ser simples ou duplamente ligado.
 
 <img src="../../assets/Circularlinkedlist.png">
+
+
+### Operações 
+
+- Inserção: adicionar um novo nó a uma lista encadeada envolve ajustar os ponteiros dos nós existentes para manter a sequência adequada. A inserção pode ser realizada no início, no final ou em qualquer posição da lista
+
+- Exclusão: remover um nó de uma lista vinculada requer o ajuste dos ponteiros dos nós vizinhos para preencher a lacuna deixada pelo nó excluído. A exclusão pode ser realizada no início, no final ou em qualquer posição da lista.
+
+- Pesquisa: A pesquisa de um valor específico em uma lista encadeada envolve percorrer a lista a partir do nó principal até que o valor seja encontrado ou o final da lista seja alcançado.
