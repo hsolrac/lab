@@ -50,3 +50,17 @@ Em uma lista encadeada circular, o último nó aponta de volta para o nó princi
 - Exclusão: remover um nó de uma lista vinculada requer o ajuste dos ponteiros dos nós vizinhos para preencher a lacuna deixada pelo nó excluído. A exclusão pode ser realizada no início, no final ou em qualquer posição da lista.
 
 - Pesquisa: A pesquisa de um valor específico em uma lista encadeada envolve percorrer a lista a partir do nó principal até que o valor seja encontrado ou o final da lista seja alcançado.
+
+### Vantagens 
+
+- Tamanho dinâmico: as listas vinculadas podem aumentar ou diminuir dinamicamente, pois a alocação de memória é feita em tempo de execução.
+
+- Inserção e exclusão: Adicionar ou remover elementos de uma lista encadeada é eficiente, especialmente para listas grandes.
+
+- Flexibilidade: as listas encadeadas podem ser facilmente reorganizadas e modificadas sem a necessidade de um bloco contíguo de memória.
+
+### Desvantagens 
+
+Acesso aleatório: Ao contrário dos arrays, as listas encadeadas não permitem acesso direto aos elementos por índice. Traversal é necessário para alcançar um nó específico.
+
+Memória extra: as listas encadeadas requerem memória adicional para armazenar os ponteiros, em comparação com as matrizes.
