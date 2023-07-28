@@ -1,0 +1,1 @@
+/home/carlos/repo/learning/rdsa/linear-data/linked-list/target/debug/liblinked_list.rlib: /home/carlos/repo/learning/rdsa/linear-data/linked-list/src/first.rs /home/carlos/repo/learning/rdsa/linear-data/linked-list/src/lib.rs
