@@ -1,0 +1,3 @@
+[submodule "exercism-lab"]
+  path = exercism-lab
+	url = git@github.com:chscoder/exercism-lab.git
