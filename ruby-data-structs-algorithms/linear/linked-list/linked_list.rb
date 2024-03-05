@@ -17,6 +17,27 @@ class LinkedList
 
   end
 
+  def append_after(target, value)
+    node = find(target)
+
+    return unless node
+
+    old_next = node.next
+    node.next = Node.new(value)
+    node.next.next = old_next
+  end
+
+  def find(value)
+    node = @head
+
+    return false if !node.next
+    return node  if node.value == value
+
+    while (node = node.next)
+      return node if node.value == value
+    end
+  end
+
   def find_tail
     node = @head
 
@@ -29,16 +50,7 @@ end
 list = LinkedList.new
 list.append(2)
 list.append(3)
-list.append(4)
-list.append(5)
-list.append(6)
-list.append(7)
-list.append(8)
-list.append(9)
-list.append(10)
-list.append(11)
-list.append(12)
-list.append(13)
+list.append_after(2, 4)
 
 p list
 
