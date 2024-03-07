@@ -2,10 +2,11 @@ require 'byebug'
 require_relative './node.rb'
 
 class LinkedList 
-  attr_accessor :head
+  attr_accessor :head, :count
 
   def initialize 
     @head = nil
+    @count = 0
   end
 
   def append(value)
@@ -14,7 +15,7 @@ class LinkedList
     else 
       @head = Node.new(value)
     end
-
+    @count += 1
   end
 
   def append_after(target, value)
@@ -44,13 +45,27 @@ class LinkedList
     return node if !node.next
     return node if !node.next while (node = node.next)
   end
+
+  def find_by_index(index)
+    if(index >= 0 && index <= @count)
+      node = @head
+      index.times do 
+        node = node.next
+      end
+      return node
+    end
+    return "undefined"
+  end
+
 end
 
 
 list = LinkedList.new
 list.append(2)
 list.append(3)
-list.append_after(2, 4)
+list.append(5)
 
-p list
+#list.find_by_index(1)
+
+
 
