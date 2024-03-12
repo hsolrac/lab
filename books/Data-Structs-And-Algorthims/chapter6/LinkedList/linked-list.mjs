@@ -26,10 +26,25 @@ export default class LinkedList {
     this.count++
   }
 
-  //TODO
-  insert(element, position){ return { element, position }}
+  insert(element, index) { 
+    if(index == 0 && index <= this.count) {
+      const node = new Node(element)
+      if(index === 0) {
+        const current = this.head; 
+        node.next = current
+        this.head = node
+      } else {
+        const previos = this.getElementAt(index -1); 
+        const current = previos.next;
+        node.next = current; 
+        previos.next = node;
+      }
+      this.count++
+      return true
+    }
+    return false
+  }
 
-  //TODO
   getElementAt(index){ 
     if(index >= 0 && index <= this.count){
       let node = this.head;
@@ -84,8 +99,9 @@ const list = new LinkedList()
 list.push(1)
 list.push(10)
 list.push(3)
+list.insert(20,2)
 
+console.log(list.getElementAt(0))
 console.log(list.getElementAt(1))
-
-
-
+console.log(list.getElementAt(2))
+console.log(list.getElementAt(3))
