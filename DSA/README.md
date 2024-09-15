@@ -7,7 +7,7 @@ Uma estrutura de dados não é usada apenas para organizar os dados. Também é 
 
 #### Classificação
 
-<img src="./rust-data-structs-algorithms/assets/ClassificationofDataStructure-660x347.jpg">
+<img src="../DSA/rust/assets/ClassificationofDataStructure-660x347.jpg">
 
 - Estrutura de Dados linear: Estrutura de dados linear: A estrutura de dados na qual os elementos de dados são organizados sequencialmente ou linearmente, onde cada elemento é anexado aos seus elementos adjacentes anteriores e posteriores, é chamada de estrutura de dados linear. 
 Exemplos de estruturas de dados lineares são array, pilha, fila, lista encadeada, etc.
@@ -18,4 +18,7 @@ Exemplos de estruturas de dados lineares são array, pilha, fila, lista encadead
 
 - Estrutura de dados não linear: As estruturas de dados em que os elementos de dados não são colocados sequencialmente ou linearmente são chamadas de estruturas de dados não lineares. Em uma estrutura de dados não linear, não podemos percorrer todos os elementos em apenas uma execução.
     Exemplos de estruturas de dados não lineares são árvores e gráficos.
+
+
+#### Tree's
 
