@@ -16,9 +16,16 @@ Exemplos de estruturas de dados lineares são array, pilha, fila, lista encadead
     - Estrutura de dados dinâmica: Na estrutura de dados dinâmica, o tamanho não é fixo. Ele pode ser atualizado aleatoriamente durante o tempo de execução, o que pode ser considerado eficiente em relação à complexidade da memória (espaço) do código.
         Exemplos dessa estrutura de dados são fila, pilha, etc.
 
+#### Queue
+#### Stack
+#### LinkedList
+
+
 - Estrutura de dados não linear: As estruturas de dados em que os elementos de dados não são colocados sequencialmente ou linearmente são chamadas de estruturas de dados não lineares. Em uma estrutura de dados não linear, não podemos percorrer todos os elementos em apenas uma execução.
     Exemplos de estruturas de dados não lineares são árvores e gráficos.
 
 
 #### Tree's
+
+#### Graphs
 
