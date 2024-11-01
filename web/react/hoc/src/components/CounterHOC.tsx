@@ -3,8 +3,7 @@ import withEnhancement from "../utils/withEnhancement";
 
 const Counter = ({ count, incrementCount }) => (
   <div>
-    <p>Count: {count}</p>
-    <button onClick={incrementCount}>Increment</button>
+    <button onClick={incrementCount}>Count: {count}</button>
   </div>
 );
 

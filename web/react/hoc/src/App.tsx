@@ -51,7 +51,7 @@ function App() {
               onChange={(value) => setChecked2(value)}
               checked={switch2}
             />
-            {switch2 && <Counter />}
+            {switch2 && <CounterHOC />}
           </div>
         </div>
       </div>
