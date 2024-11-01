@@ -52,5 +52,5 @@
 .control-section {
   display: flex;
   align-items: center;
-  gap: 10px; /* Espaço entre o toggle e o contador */
+  gap: 10px;
 }

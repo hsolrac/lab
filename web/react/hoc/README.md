@@ -2,7 +2,7 @@
 - HOC (Higher Order Components)
 - [Redux](https://redux.js.org/)
 - [Recompose](https://github.com/acdlite/recompose)
-- [Ramda](https://ramdajs.com/)
+- [Rameda](https://remedajs.com/)
 
 HOC Is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se.
 They are a pattern that emerges from React’s compositional nature.
@@ -19,7 +19,7 @@ In this example: `src/components/CounterHOC`, I use the concept of HOC together 
 - [x] HOC
   - [ ] with redux  
 - [x] redux
-- [ ] ramda
+- [ ] remeda
 
 
 
