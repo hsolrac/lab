@@ -1,25 +1,60 @@
 # Lab
 
-Bem-vindo ao repositório **Lab**! Este repositório contém algoritmos, estruturas de dados, materiais para entrevistas de emprego, livros e muito mais.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
+[![Algorithms](https://img.shields.io/badge/Algorithms-FF6B6B?style=flat&logo=algorithm&logoColor=white)](https://en.wikipedia.org/wiki/Algorithm)
+[![Computer Science](https://img.shields.io/badge/Computer_Science-4B0082?style=flat&logo=computer&logoColor=white)](https://en.wikipedia.org/wiki/Computer_science)
+[![Database](https://img.shields.io/badge/Database-336791?style=flat&logo=database&logoColor=white)](https://en.wikipedia.org/wiki/Database)
 
-## Conteúdo
+A comprehensive repository containing algorithms, data structures, coding interview materials, and educational resources for software development.
 
-### 1. Algoritmos e Estruturas de Dados
-- Implementações e exemplos de algoritmos e estruturas de dados.
-- Pastas organizadas por tipo de algoritmo e estrutura.
+## Table of Contents
 
-### 2. Coding Interview
-- Exemplos de questões comuns em entrevistas de emprego.
-- Soluções e explicações detalhadas para cada questão.
+- [About](#about)
+- [Features](#features)
 
-### 3. FreeCodeCamp
-- Projetos e exercícios do FreeCodeCamp.
-- Soluções e discussões sobre os desafios propostos.
+## About
 
-### 4. Web
-- Exemplos e projetos relacionados ao desenvolvimento web.
-- Uso de frameworks e ferramentas como Axum.
+This repository serves as a personal learning hub and reference for various programming concepts, algorithms, and interview preparation materials. It's designed to help developers improve their technical skills and prepare for technical interviews.
 
-### 5. Books
-- Anotações e resumos de livros sobre algoritmos e estruturas de dados.
-- Capítulos organizados para fácil consulta.
+## Features
+
+- **Algorithms & Data Structures**
+  - Implementation of common algorithms
+  - Data structure implementations
+  - Performance analysis and complexity
+  - Practice problems and solutions
+
+- **Coding Interview Preparation**
+  - Common interview questions
+  - Detailed solutions and explanations
+  - Problem-solving strategies
+  - Best practices and tips
+
+- **FreeCodeCamp Projects**
+  - Completed challenges
+  - Project solutions
+  - Learning progress tracking
+
+- **Web Development**
+  - Modern web frameworks (Axum)
+  - Web development best practices
+  - Example projects and tutorials
+
+- **Technical Books**
+  - Book summaries and notes
+  - Key concepts and implementations
+  - Learning resources
+
+- **Advanced Computing**
+  - Advanced algorithms and concepts
+  - System design patterns
+  - Performance optimization
+
+- **Functional Programming**
+  - Functional programming concepts
+  - Pure functions and immutability
+  - Higher-order functions
