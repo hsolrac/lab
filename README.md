@@ -11,16 +11,11 @@
 
 A comprehensive repository containing algorithms, data structures, coding interview materials, and educational resources for software development.
 
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-
 ## About
 
 This repository serves as a personal learning hub and reference for various programming concepts, algorithms, and interview preparation materials. It's designed to help developers improve their technical skills and prepare for technical interviews.
 
-## Features
+## Summary
 
 - **Algorithms & Data Structures**
   - Implementation of common algorithms
@@ -39,9 +34,9 @@ This repository serves as a personal learning hub and reference for various prog
   - Project solutions
   - Learning progress tracking
 
-- **Web Development**
+- **Concepts**
   - Modern web frameworks (Axum)
-  - Web development best practices
+  - [Design Patterns](./concepts/design-patterns)
   - Example projects and tutorials
 
 - **Technical Books**
